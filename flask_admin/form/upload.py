@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
 
 from wtforms import ValidationError, fields
-from wtforms.widgets import html_params
+from wtforms.widgets import html_params, HTMLString
 
 try:
     from wtforms.fields.core import _unset_value as unset_value
